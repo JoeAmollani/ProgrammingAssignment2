@@ -49,6 +49,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 }
 
+PART 2
 
 # The following function calculates the inverse of a "special" matrix created with 
 # makeCacheMatrix
@@ -56,8 +57,6 @@ cacheSolve <- function(x, ...) {
 ## Return a matrix that is the inverse of 'x'
 
 # getting cache value
-
-Part 2
 
 cacheSolve <- function(y, ...) {
         # get the cached value
