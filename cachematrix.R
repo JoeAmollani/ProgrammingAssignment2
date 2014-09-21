@@ -23,8 +23,8 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 # store a matrix
-        setMatrix <- function(newValue) {
-                x <<- newValue
+        setMatrix <- function(Value) {
+                x <<- Value
                 # since the matrix is assigned a new value, flush the cache
                 cache <<- NULL
         }
